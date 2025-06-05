@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Proyecto01_Clase3 {
     public static void main(String[] args) {
         // declarar variables
-        double num1, num2, suma, promedio;
+        double num1, num2, suma, promedio, ps;
         Scanner lectura = new Scanner(System.in);
 
         // entrada datos
@@ -18,10 +18,12 @@ public class Proyecto01_Clase3 {
         // procesamiento
         suma = num1 + num2;
         promedio = suma / 2;
+        ps= promedio + suma;
 
         // salida de datos
         System.out.println("La suma es: " + suma);
         System.out.println("El promedio es: " + promedio);
+        System.out.println("El promedio + la suma es: " + ps);
 
         lectura.close();
     }
